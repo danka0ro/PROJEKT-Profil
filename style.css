@@ -25,7 +25,6 @@ body {
 	color: white;
 	margin-left: 20px;
 	margin-top: 20px;
-/*	position: relative; */
 }
 
 .hlavicka {
@@ -62,7 +61,7 @@ a {
 	text-decoration: none;
 	color: white;
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 5px 9px;
 }
 
 .odkazy {
@@ -81,7 +80,6 @@ a {
 .twitter {
 	display: inline-block;
 	border: 2px solid #3f464d;
-/*	position: relative; */
 }
 
 .portfolio:hover,
