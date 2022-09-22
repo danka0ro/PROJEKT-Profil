@@ -20,31 +20,37 @@ body {
 
 .profil {
 	width: 250px;
-	padding: 20px;
 	background-color: #31363b;
 	color: white;
-	margin-left: 20px;
-	margin-top: 20px;
+	/*margin-left: 20px;
+	margin-top: 20px;*/
 }
 
 .hlavicka {
 	position: relative;
+	height: 200px;
 	
 }
 
 .foto {
 	width: 250px;
-	position: relative;
-	right: 20px;
-	bottom: 20px;
 }
 
 .logo {
-	position: absolute;
+	position: relative;
 	background-color: #b92e81;
 	border-radius: 50%;
-	bottom: 5px;
-	right: 5px;
+	bottom: 30px;
+	left: 170px;
+}
+
+.obsah {
+	padding: 8px;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 24px;
 }
 
 .jmeno,
@@ -54,6 +60,7 @@ a {
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
+	
 }
 
 a {
@@ -76,10 +83,18 @@ a {
 
 }
 
-.facebook,
+.facebook {
+	display: inline-block;
+	border: 2px solid #3f464d;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
 .twitter {
 	display: inline-block;
 	border: 2px solid #3f464d;
+	padding-left: 15px;
+	padding-right: 10px;
 }
 
 .portfolio:hover,
